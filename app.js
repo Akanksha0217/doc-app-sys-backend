@@ -21,7 +21,6 @@ app.use(cors({
 
 app.use('/api/user', userRoute)
 app.use('/api/appointment', appointmentRoute)
-
 app.use("/api/doctor",doctorRoutes)
 
 
